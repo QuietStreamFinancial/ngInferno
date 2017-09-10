@@ -1,25 +1,23 @@
 {
-  "name": "ngreact",
+  "name": "nginferno",
   "author": "https://github.com/davidchang/ngReact/graphs/contributors",
   "scripts": {
     "build": "grunt build",
     "test": "grunt test"
   },
   "version": "0.4.1",
-  "main": "ngReact.js",
-  "description": "Use React Components in Angular",
-  "homepage": "http://davidchang.github.io/ngReact/",
+  "main": "ngInferno.js",
+  "description": "Use Inferno Components in Angular",
+  "homepage": "https://github.com/palcisto/ngInferno",
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidchang/ngReact.git"
+    "url": "https://github.com/palcisto/ngInferno"
   },
   "license": "MIT",
   "peerDependencies": {
     "angular": "< 2.0.0",
     "inferno": ">=3.8.0",
-    "inferno-compat": ">=3.8.0",
-    "react": ">=0.14.2",
-    "react-dom": ">=0.14.2"
+    "inferno-compat": ">=3.8.0"
   },
   "browserify-shim": {
     "angular": "global:angular"
@@ -55,10 +53,7 @@
   "keywords": [
     "angularjs",
     "angular",
-    "react",
-    "ngReact"
-  ],
-  "dependencies": {
-    "inferno-create-element": "^3.8.0"
-  }
+    "inferno",
+    "ngInferno"
+  ]
 }
