@@ -2,6 +2,8 @@
 
 # ngInferno
 
+** WARNING: While ngInferno is based off the stable ngReact library, ngInferno is still in it's infancy. I'm still ironing out the dependency tree of Inferno and Inferno Compat while using it on the global scope and is temporarily relying on a package where I've bundled all of the Inferno related dependencies into a single file that works on the global scope properly since that is what my current use case needs.**
+
 [Inferno](https://github.com/infernojs/inferno)
 > An extremely fast, React-like JavaScript library for building modern user interfaces
 
