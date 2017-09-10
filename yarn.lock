@@ -1761,38 +1761,6 @@ indexof@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/indexof/-/indexof-0.0.1.tgz#82dc336d232b9062179d05ab3293a66059fd435d"
 
-inferno-component@3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/inferno-component/-/inferno-component-3.8.0.tgz#3d73613ababbf4692af8253fff7392d31b752e07"
-  dependencies:
-    inferno "3.8.0"
-    inferno-shared "3.8.0"
-    inferno-vnode-flags "3.8.0"
-
-inferno-create-element@^3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/inferno-create-element/-/inferno-create-element-3.8.0.tgz#3147abfd703113a4031102f0ede14672127eb14b"
-  dependencies:
-    inferno "3.8.0"
-    inferno-component "3.8.0"
-    inferno-shared "3.8.0"
-    inferno-vnode-flags "3.8.0"
-
-inferno-shared@3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-3.8.0.tgz#faf9c73c97043880742a702ca89229c315a75ea2"
-
-inferno-vnode-flags@3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-3.8.0.tgz#065c4a8c4a99f852f9fe003e3243476c8eb5fca3"
-
-inferno@3.8.0, inferno@^3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/inferno/-/inferno-3.8.0.tgz#12992774987cc766f9e77d6f5cf042d70db10d23"
-  dependencies:
-    inferno-shared "3.8.0"
-    inferno-vnode-flags "3.8.0"
-
 inflight@^1.0.4:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/inflight/-/inflight-1.0.6.tgz#49bd6331d7d02d0c09bc910a1075ba8165b56df9"

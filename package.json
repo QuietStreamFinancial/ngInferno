@@ -11,13 +11,12 @@
   "homepage": "https://github.com/palcisto/ngInferno",
   "repository": {
     "type": "git",
-    "url": "https://github.com/palcisto/ngInferno"
+    "url": "https://github.com/palcisto/ngInferno.git"
   },
   "license": "MIT",
   "peerDependencies": {
     "angular": "< 2.0.0",
-    "inferno": ">=3.8.0",
-    "inferno-compat": ">=3.8.0"
+    "inferno-bundled": "https://github.com/palcisto/inferno-bundled"
   },
   "browserify-shim": {
     "angular": "global:angular"
@@ -34,7 +33,6 @@
     "grunt-contrib-watch": "1.0.0",
     "grunt-docco": "0.4.0",
     "grunt-karma": "0.12.2",
-    "inferno": "^3.8.0",
     "jasmine-core": "2.4.1",
     "karma": "0.13.22",
     "karma-browserify": "5.0.3",
