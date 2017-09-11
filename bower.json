@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "angular": "<2.0.0",
-    "inferno-bundled": "https://github.com/palcisto/inferno-bundled"
+    "inferno-bundled": "https://github.com/palcisto/inferno-bundled.git"
   },
   "devDependencies": {},
   "keywords": [

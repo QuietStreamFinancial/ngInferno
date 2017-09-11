@@ -1,4 +1,4 @@
-var app = angular.module( 'app', ['react'] );
+var app = angular.module( 'app', ['inferno'] );
 
 app.controller( 'mainCtrl', function( $scope ) {
   $scope.person = { fname: 'Clark', lname: 'Kent' };
@@ -14,19 +14,19 @@ app.filter( 'hero', function() {
 } );
 
 app.factory( "Hello", function( $filter ) {
-  return React.createClass( {
+  return Inferno.createClass( {
     propTypes: {
-      person: React.PropTypes.object.isRequired,
+      person: Inferno.PropTypes.object.isRequired,
     },
 
     render: function() {
-      return React.DOM.span( null,
+      return Inferno.DOM.span( null,
         'Hello ' + $filter( 'hero' )( this.props.person )
       );
     }
   } );
 } );
 
-app.directive( 'hello', function( reactDirective ) {
-  return reactDirective( 'Hello' );
+app.directive( 'hello', function( infernoDirective ) {
+  return infernoDirective( 'Hello' );
 } );
