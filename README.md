@@ -2,12 +2,12 @@
 
 # ngInferno
 
-** WARNING: While ngInferno is based off the stable ngReact library, ngInferno is still in it's infancy. I'm still ironing out the dependency tree of Inferno and Inferno Compat while using it on the global scope and is temporarily relying on a package where I've bundled all of the Inferno related dependencies into a single file that works on the global scope properly since that is what my current use case needs.**
+**WARNING: While ngInferno is based off the stable ngReact library, ngInferno is still in it's infancy. I'm still ironing out the dependency tree of Inferno and Inferno Compat while using it on the global scope and is temporarily relying on a package where I've bundled all of the Inferno related dependencies into a single file that works on the global scope properly since that is what my current use case needs.**
 
 [Inferno](https://github.com/infernojs/inferno)
 > An extremely fast, React-like JavaScript library for building modern user interfaces
 
-The [React.js](http://facebook.github.io/react/) library can be used as a view component in web applications. Along with being a port of [ngInferno](https://github.com/ngInferno/ngInferno), ngInferno is an Angular module that allows Inferno Components to be used in [AngularJS](https://angularjs.org/) applications.
+The [React.js](http://facebook.github.io/react/) library can be used as a view component in web applications. Along with being a port of [ngReact](https://github.com/ngReact/ngReact), ngInferno is an Angular module that allows Inferno Components to be used in [AngularJS](https://angularjs.org/) applications.
 
 Motivation for this could be any of the following:
 
