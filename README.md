@@ -44,8 +44,7 @@ yarn add nginferno
 Then, just make sure Angular, Inferno, and ngInferno are on the page,
 ```html
 <script src="bower_components/angular/angular.js"></script>
-<script src="bower_components/inferno/inferno.js"></script>
-<script src="bower_components/inferno/inferno-compat.js"></script>
+<script src="bower_components/inferno-bundled/inferno-bundled.js"></script>
 <script src="bower_components/ngInferno/ngInferno.min.js"></script>
 ```
 
